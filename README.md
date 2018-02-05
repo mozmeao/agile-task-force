@@ -18,8 +18,8 @@ To nurture and maintain a sustainable and scalable Agile methodology that positi
 * The Program Management Team
 
 ## Continuous Improvement
-Have you found an area of friction or want to suggest improvements? Just [file an issue](https://github.com/mozmeao/agile-task-force/issues/new) and a member of the task force will review.
+Have you found an area of friction or want to suggest improvements? Just [file an issue](https://github.com/mozmeao/agile-task-force/issues/new) and a member of the task force will review. Note all github issues are public. Don't have a github account or want so submit an issue privately? Go ahead and use this google form (coming soon).
 
 ## Resources & Docs
-* [MozGile Glossary](docs/glossary.md)
+* [Mozgile Glossary](docs/glossary.md)
 
