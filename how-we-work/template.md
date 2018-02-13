@@ -23,8 +23,8 @@
 
 ## Daily Standups
 
-*How / when to stand ups occur, what happens during a meeting*
+*How / when to stand ups occur, what happens during a meeting, be brief!*
 
 ## Retrospectives
 
-*How does the team to Retrospectives.*
+*How does the team to Retrospectives.Again.. be brief!*
