@@ -8,7 +8,8 @@ For more detail, the Mozilla.org Workflow can be found [here.](https://docs.goog
 
 *How work comes to the team and where does it go to get triaged*
 
-   Work requests come in to the mozilla.org durable team from both durable and functional teams from across MoCo & MoFo.*
+   Work requests come in to the mozilla.org durable team from both durable and functional teams from across MoCo & MoFo.
+   
       * The intake funnels are:
          * Bugs filed in bugzilla
          * Briefs submitted using the Tier 1 template to David Tenser (Team Lead) and Eric Renaud (Program Manager)
@@ -24,13 +25,13 @@ For more detail, the Mozilla.org Workflow can be found [here.](https://docs.goog
 
 ## Backlog
 
-The mozilla.org backlog is populated in Taiga and identified in the Kanban board as 'Incoming'
+The mozilla.org [backlog](https://tree.taiga.io/project/malexis-mozillaorg-durable-team/backlog) is populated in Taiga and identified in the Kanban board as 'Incoming'.
 
 ## Board Details
 
 * Board columns:  Incoming | Research | Ready | In progress | Review | Done | Archived 
 * How/when to cards move across the board*
-Cards are moved by any member of the team when a change in status is indentified. Chiefly this falls to the Program Manager, then to the individuals owning a card at the given moment until such time the state changes
+Cards are moved by any member of the team when a change in status is indentified. Chiefly this falls to the Program Manager, then to the individuals owning a card at the given moment until such time the state changes.
 * What does done mean*
 Done means a fully approved (Accountable/Approver) work item is complete according to the established Acceptance Criteria. Most commonly, but not exclusively, this means the results of the body of work are live on mozilla.org or blog.mozilla.org.
 
