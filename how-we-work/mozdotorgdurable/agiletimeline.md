@@ -1,4 +1,4 @@
-++Mozilla.org Implementations of Agile Timeline
+# Mozilla.org Implementations of Agile Timeline
 
 * (Needs date) Agile initiative in Mozilla Marketing kicked off to bring focus to marketing efforts
 * (Needs date) Durable Teams established (mozilla.org durable team, etc.)
