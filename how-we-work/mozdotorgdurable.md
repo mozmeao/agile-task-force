@@ -8,12 +8,13 @@ For more detail into our processes, the Mozilla.org Workflow can be found [here.
 
 *How work comes to the team and where does it go to get triaged*
 
-   Work requests come in to the mozilla.org durable team from both durable and functional teams from across MoCo & MoFo.
+Work requests come in to the mozilla.org durable team from both durable and functional teams from across MoCo & MoFo.
    
-      * The intake funnels are:
-         * Bugs filed in bugzilla
-         * Briefs submitted using the Tier 1 template to David Tenser (Team Lead) and Eric Renaud (Program Manager)
-   * Triage
+   * The intake funnels are:
+      * Via Durable Teams
+         * Work requests entered into one of the 3 teams, Firefox Growth; Mozilla (Consumers/Creators); Firefox Retention, prioritization lists that result in either Tier 1 briefs (complex work requests) or bugs (simple work requests)
+      * Via any other team or group in MoCo or MoFo who will, after initial consult with the Team Lead and/or PM, submit a Tier 1 brief or a bug
+   * Triage 
       * Briefs - are submitted to David Tenser for SLT level approval. When briefs are approved they then come to the team for in depth review in a kickoff meeting with the requesting team
       * Bugs - These are reviewed by one or more of the moz.org team members depend on the nature of the bug. Currently the PM (Eric Renaud) has a weekly meeting for [Bug Triage](https://bugzilla.mozilla.org/buglist.cgi?cmdtype=dorem&remaction=run&namedcmd=mozilla.org%20needs%20triage&sharer_id=148348&list_id=14026853) with another team member that/who revolves on a monthly basis.
    * Prioritization
