@@ -117,7 +117,7 @@ The goal of this meeting is to review our project board, replenish the `Queued` 
 
 ***DRAFT***
 
-We'll run a standups on Monday, Tuesday, Thursday and Friday for ***10 minutes***. Time TBD.
+We'll run a standups on Monday, Tuesday and Thursday for ***10 minutes***. Time TBD.
 
 - The goal of this meeting is to ensure that cards are able to flow across the board, to identify blockers, and to spin off other 1-1 pairing sessions if needed.
 - This meeting **IS NOT** for technical discussions.
