@@ -11,29 +11,30 @@
 ## Approval Process
 
 *We discuss what's on the Trello board during two Sprint Planning sessions (one that's ~1.5 hours and one that's 1 hour)*
-*The person who added the story talks about what they were thinking. *
-*To facilitate conversation, audience, benefit, and business value are included. In addition we talk to about how the work ladders to the KRs and the expected impact*
-*Based on that conversation we decide whether to add it to the next sprint*
+* *The person who added the story talks about what they were thinking. *
+* *To facilitate conversation, audience, benefit, and business value are included. In addition we talk to about how the work ladders to the KRs and the expected impact*
+* *Based on that conversation we decide whether to add it to the next sprint*
 
 ## Backlog
 
 *After the first Sprint Planning session the general work gets moved to a Google Doc*
-*In the second Sprint Planning session, we take that general work, write user stories and acceptance criteria, and prioritize the work that we're adding to the sprint.
+*In the second Sprint Planning session, we take that general work, write user stories and acceptance criteria, and prioritize the work that we're adding to the sprint.*
+
 
 ## Board Details (https://tree.taiga.io/project/jbalaco-firefox-desktop-mobile/backlog)
 
 * *What are your columns, what do the columns mean.*
-* Our Taiga board has five columns: New, In Progress, Ready for Review, Closed, Needs Information. 
+* Our Taiga board has five columns: New, In Progress, Ready for Review, Closed, Needs Information.*
 * *New: Where all tasks identified for a story lives. These items are not currently being worked on.*
-* *In Progress: These items are currently being worked on. 
-* *Ready for Review: These tasks need review by our Team Lead and/or other stakeholders. 
-* *Closed: This is for work that is completed. 
-* *Needs Information: We do not tend to use this column. Instead we will block a task if it cannot be moved, because somehting is missing after it has started in progress.
+* *In Progress: These items are currently being worked on.* 
+* *Ready for Review: These tasks need review by our Team Lead and/or other stakeholders.* 
+* *Closed: This is for work that is completed.* 
+* *Needs Information: We do not tend to use this column. Instead we will block a task if it cannot be moved, because somehting is missing after it has started in progress.*
 
 * *How/when to cards move across the board*
-* Cards are moved across the board by the people working them. We also do a check as we run through the board during stand-up. 
+* Cards are moved across the board by the people working them. We also do a check as we run through the board during stand-up.* 
 * *What does done mean*
-* A task that is considered done has gone through all reviews needed and is no longer a blocker for moving onto the next task in a story.
+* A task that is considered done has gone through all reviews needed and is no longer a blocker for moving onto the next task in a story.*
 
 ## Daily Standups
 
@@ -44,4 +45,4 @@
 ## Retrospectives
 
 *How does the team do Retrospectives. Again... be brief!*
-*We meet during the planning week for 25 minutes. We start by calling out our appreciations for team members. Then we move on to what to Start, Stop and Continue working on. This meeting is our core team members and a few of our advocates who work essentially as core team members.
+*We meet during the planning week for 25 minutes. We start by calling out our appreciations for team members. Then we move on to what to Start, Stop and Continue working on. This meeting is our core team members and a few of our advocates who work essentially as core team members.*
