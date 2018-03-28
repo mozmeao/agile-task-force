@@ -11,8 +11,8 @@
 ## Approval Process
 
 *We discuss what's on the Trello board during two Sprint Planning sessions (one that's ~1.5 hours and one that's 1 hour)*
-* *The person who added the story talks about what they were thinking. *
-* *To facilitate conversation, audience, benefit, and business value are included. In addition we talk to about how the work ladders to the KRs and the expected impact*
+* *The person who added the story talks about what they were thinking.*
+* *To facilitate conversation, audience, benefit, and business value are included. In addition we talk to about how the work ladders to the KRs and what the expected impact is.*
 * *Based on that conversation we decide whether to add it to the next sprint*
 
 ## Backlog
@@ -21,8 +21,9 @@
 *In the second Sprint Planning session, we take that general work, write user stories and acceptance criteria, and prioritize the work that we're adding to the sprint.*
 
 
-## Board Details (https://tree.taiga.io/project/jbalaco-firefox-desktop-mobile/backlog)
+## Board Details 
 
+* (https://tree.taiga.io/project/jbalaco-firefox-desktop-mobile/backlog)
 * *What are your columns, what do the columns mean.*
 * Our Taiga board has five columns: New, In Progress, Ready for Review, Closed, Needs Information.*
 * *New: Where all tasks identified for a story lives. These items are not currently being worked on.*
