@@ -21,5 +21,6 @@ To nurture and maintain a sustainable and scalable Agile methodology that positi
 Have you found an area of friction or want to suggest improvements? Just [file an issue](https://github.com/mozmeao/agile-task-force/issues/new) and a member of the task force will review. Note github issue submissions are public. Don't have a github account or want to submit an issue privately? Go ahead and use this [google form](https://goo.gl/forms/DE67oz7g9DRDc7ww2).
 
 ## Resources & Docs
+* [Mozgile 2018 Onboarding Presentation](https://docs.google.com/presentation/d/1iYdnDVMEbCDXYmNCipkhm5xXwuoqS0dJd3mg1F8ZdUw/edit?ts=5aaaca7e)
 * [Mozgile Glossary](docs/glossary.md)
 
