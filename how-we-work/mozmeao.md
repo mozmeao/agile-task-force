@@ -27,13 +27,9 @@ From the [project UI](https://github.com/orgs/mozmeao/projects/2), click the `Ad
 
 ### Issues and PR's in external repos
 
-Click the `+` sign in any column of the project and add a brief description *AND links to one or more external issues that you'd like to track*, then click the `Add` button. This creates a project *card*, which isn't as searchable as a regular issue. Click the `...` icon, followed by `Convert to issue`, which allows us to search, label and set milestones. Select the `infra` repo. In the issue body, add as much detail as you'd like.
+Click the `+` sign in any column of the project and add a brief description *AND links to one or more external issues that you'd like to track*, then click the `Add` button. 
 
 > Adding multiple links in the body of a note will enable a 'Show' button that can be expanded to show additional detail for each linked issue.
-
-#### Cards vs issues
-
-If creating cards via the Github Project interface, please convert the card to an issue as soon as possible. This allows us to use the Github Issues interface to filter by author, labels, project, milestone and assignee. We occasionally create reminder cards with the intent of converting it to a full issue in the near future.
 
 ### Issue Labels
 
@@ -98,7 +94,7 @@ The title of for the `In progress` column should include `(limit 12)`, or whatev
 
 ### Weekly board review meeting
 
-We have a weekly project review meeting on Wednesdays at [TODO]. 
+We have a weekly project review meeting on Wednesdays at 7:30am pacific. 
 The goal of this meeting is to review our project board, replenish the `Queued` column of the board with new work, and to identify blockers or at-risk tasks.
 
 #### Process:
@@ -117,7 +113,7 @@ The goal of this meeting is to review our project board, replenish the `Queued` 
 
 ***DRAFT***
 
-We'll run a standups on Monday, Tuesday and Thursday for ***10 minutes***. Time TBD.
+We'll run a standups on Monday, Tuesday and Thursday for ***10 minutes*** at 7:30am pacific.
 
 - The goal of this meeting is to ensure that cards are able to flow across the board, to identify blockers, and to spin off other 1-1 pairing sessions if needed.
 - This meeting **IS NOT** for technical discussions.
