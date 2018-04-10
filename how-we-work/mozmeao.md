@@ -94,7 +94,7 @@ The title of for the `In progress` column should include `(limit 12)`, or whatev
 
 ### Weekly board review meeting
 
-We have a weekly project review meeting on Wednesdays at 7:30am pacific. 
+We have a weekly project review meeting on Tuesdays at 7:30am pacific. 
 The goal of this meeting is to review our project board, replenish the `Queued` column of the board with new work, and to identify blockers or at-risk tasks.
 
 #### Process:
@@ -113,7 +113,7 @@ The goal of this meeting is to review our project board, replenish the `Queued` 
 
 ***DRAFT***
 
-We'll run a standups on Monday, Tuesday and Thursday for ***10 minutes*** at 7:30am pacific.
+We'll run a standup on Monday, Wednesday and Thursday for ***10 minutes*** at 7:30am pacific.
 
 - The goal of this meeting is to ensure that cards are able to flow across the board, to identify blockers, and to spin off other 1-1 pairing sessions if needed.
 - This meeting **IS NOT** for technical discussions.
