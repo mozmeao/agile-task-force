@@ -1,4 +1,4 @@
-# How we work in 2018 - DRAFT
+# How we work in 2018
 
 Our team manages it's work via a [Github project in the MozMEAO organization](https://github.com/orgs/mozmeao/projects/2). The goal of this team-centric Kanban board is to help manage backend and infra/SRE tasks. This will allow us to:
 
@@ -111,14 +111,21 @@ The goal of this meeting is to review our project board, replenish the `Queued` 
 
 ### Standups
 
-***DRAFT***
-
 We'll run a standup on Monday, Wednesday and Thursday for ***10 minutes*** at 7:30am pacific.
 
-- The goal of this meeting is to ensure that cards are able to flow across the board, to identify blockers, and to spin off other 1-1 pairing sessions if needed.
+- The goal of this meeting is to share status updates for our main projects, instead of each engineer reporting status separately. This is a good time to identify blockers, raise red flags on infrastructure changes and cloud costs, and spin off 1-1 pairing sessions.
+
+- Take the following list, randomize order, add/remove topics as needed and ask the team for updates:
+  - Bedrock (Basket, Nucleus)
+  - Careers
+  - Infrastructure
+  - MDN
+  - Snippets
+  - SUMO
+
 - This meeting **IS NOT** for technical discussions.
 - If the meeting runs > 10 minutes, we're doing it wrong.
-- Please review the project board _before_ the meeting.
+- Please review the project board and update any cards that you're working on _before_ the meeting.
 
 
 # Communications
