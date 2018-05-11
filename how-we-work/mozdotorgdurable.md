@@ -102,6 +102,7 @@ We use a lot of labels, below are some special ones:
 
 - `Blocked` - Tasks that can not move forward and require some action to get moving. 
 - `Needs Review` - Tasks that need review (creative/pr etc) to move forward. 
+- `Fire` -  Urgent request that should take priority over other work.
 - `Project` - Should only be used for cards on the Project Board.
 - _* Team_ -  Should only be used for cards on the Project Board.
 
@@ -112,7 +113,7 @@ We use a lot of labels, below are some special ones:
 
 * Stand up & Status - Mondays at 9-9:30 am PT - Stand up followed by project status review 
 * Stand ups - Tuesdays & Thursdays at 9-9:15 am PT
-* Team time - Wednesdays at 9-10 am PT - recurring, non-required meeting where we attempt realize the benefits of colocation (as we are not colocated)
+* Team time - Wednesdays at 9:15-10 am PT - recurring, non-required meeting where we attempt realize the benefits of colocation (as we are not colocated)
 
 
 ### Retrospectives
