@@ -55,13 +55,14 @@ Significant projects are tracked on our [Project Board](https://github.com/mozil
 Rules for this board are as follows:
 
 1. Any significant project (defined as work containing multiple tasks with multiple people) must have a card on the board.
-2. The project on the board must have a description containing links to any background information and that projects task board.
-3. Only the following labels can be applied to projects:
+2. The project on the board must have a description containing links to any background information and that projects task board. 
+3. Keep the contents of these cards limited, discussiom about actual work should occur within those tasks.
+4. Only the following labels can be applied to projects:
       1. The `Project` label.
       2. The correct `Team` label. One of the following: Retention, Consumers, Firefox Growth, or Moz.org . 
       3. Blocked if blocked.
-4. No other labels should be applied to projects.
-5. Folks who are working on a project, should be assigned.
+5. No other labels should be applied to projects.
+6. Folks who are working on a project, should be assigned.
 
 #### Project Status Board Columns
 
@@ -102,7 +103,7 @@ We use a lot of labels, below are some special ones:
 
 - `Blocked` - Tasks that can not move forward and require some action to get moving. 
 - `Needs Review` - Tasks that need review (creative/pr etc) to move forward. 
-- `Fire` -  Urgent request that should take priority over other work.
+- `Fire` -  Urgent request that should take priority over other work. This could be work that has legal, financial or firefox download ramifications. Fire requests should always be vetted with the Team Lead to determine priority.
 - `Project` - Should only be used for cards on the Project Board.
 - _* Team_ -  Should only be used for cards on the Project Board.
 
