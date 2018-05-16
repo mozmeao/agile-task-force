@@ -101,7 +101,7 @@ Generally our projects will have the following columns:
 
 ### How/when do cards move across the board?
 
-Cards are moved by any member of the team when a change in status is identified. Cards should generally be moved by whomever takes the work or causes an update to status. This is not the responsibility of the Program Manager, team members show own the cards they take on including keeping the status up to date.
+Cards are moved by any member of the team when a change in status is identified. Cards should generally be moved by whomever takes the work or causes an update to status. Moving cards is not the responsibility of the Program Manager. The team members own the cards they take including keeping the status up to date. If someone needs to know that the status of a card has changed, and they have not subscribed to the issue, mention their handle in a comment.
 
 ## Labels
 
