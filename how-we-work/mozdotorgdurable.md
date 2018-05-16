@@ -47,8 +47,6 @@ Moz.org maintains a *[Project Board](https://github.com/mozilla/bedrock/projects
     └── Project #4 Board
 ```
 
-
-
 ### Project Board & Projects
 
 Significant projects are tracked on our [Project Board](https://github.com/mozilla/bedrock/projects/3).
@@ -57,7 +55,7 @@ Rules for this board are as follows:
 
 1. Any significant project (defined as work containing multiple tasks with multiple people) must have a card on the board.
 1. The project on the board must have a description containing links to any background information and that projects task board. 
-1. Keep the contents of these cards limited, discussiom about actual work should occur within those tasks.
+1. Keep the contents of these cards limited, discussion about actual work should occur within those tasks.
 1. Only the following labels can be applied to projects:
       1. The `Project` label.
       2. The correct `Team` label. One of the following: Retention, Consumers, Firefox Growth, or Moz.org . 
@@ -74,7 +72,7 @@ Rules for this board are as follows:
 
 #### Moz.org Backlog & Small Tasks
 
-For non project work or tasks too small for a project, just file an issue. The lifecycle of non-project work is as folows:
+For non project work or tasks too small for a project, just file an issue. The lifecycle of non-project work is as follows:
 
 1. An issue is filed.
 1. If the issue is ready to work on the label "ready" is applied.
@@ -103,7 +101,7 @@ Generally our projects will have the following columns:
 
 ### How/when do cards move across the board?
 
-Cards are moved by any member of the team when a change in status is identified. Cards should generally be moved by whomever takes the work or causes an update to status. This is not the responsibility of the Program Manger, team members show own the cards they take on including keeping the status up to date.
+Cards are moved by any member of the team when a change in status is identified. Cards should generally be moved by whomever takes the work or causes an update to status. This is not the responsibility of the Program Manager, team members show own the cards they take on including keeping the status up to date.
 
 ## Labels
 
@@ -117,7 +115,7 @@ We use a lot of labels, below are some special ones:
 - _* Team_ -  Should only be used for cards on the Project Board.
 
 
-### Daily Standups
+## Daily Standups
 
 *How / when to stand ups occur, what happens during a meeting, be brief!*
 
@@ -126,10 +124,11 @@ We use a lot of labels, below are some special ones:
 * Team time - Wednesdays at 9:15-10 am PT - recurring, non-required meeting where we attempt realize the benefits of colocation (as we are not colocated)
 
 
-### Retrospectives
+## Retrospectives
 
 Team Retrospectives are held every three weeks. These are 'team only' meetings, defined as safe spaces in which candid commentary is allowed and expected with the intent learn from previous circumstances
 We focus on: 
-* What worked well
-* What didn't work well
-* What can be improved/what new things can we do
+- Did we follow up on Action Items from last retrospective?
+- What do we keep doing?
+- What could use improvements?
+- What do we stop doing?
