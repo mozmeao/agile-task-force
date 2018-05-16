@@ -37,50 +37,58 @@ or can not be public, please track work in private bugzilla issues.
 
 ## Github Overview
 
-Moz.org maintains a *[Project Board](https://github.com/mozilla/bedrock/projects/3)* that shows an overview of all the significant projects and their status. Details about each project can be found in the card. Work & tasks for each project are tracked on separate project specific boards. Work that is too small to qualify as a project lives on the Moz.org Durable Team Board. Whenever possible work should be grouped into a project.
+Moz.org maintains a *[Project Board](https://github.com/mozilla/bedrock/projects/3)* that shows an overview of all the significant projects, tasks and their status. Details about each project can be found in the card. Work & tasks for these projects are tracked on separate project specific boards. Work that is too small to qualify as a project (for example, text updates to the leadership page) should still be represented on this board. If there are multiple tasks but the work is still not a project, group using references to keep the board tidy.
 
 ```
 └── Project Board
-    ├── Moz.org Durable Team Board
     ├── Project #1 Board
     ├── Project #2 Board
     ├── Project #3 Board
     └── Project #4 Board
 ```
 
-### Project Board
+
+
+### Project Board & Projects
 
 Significant projects are tracked on our [Project Board](https://github.com/mozilla/bedrock/projects/3).
 
 Rules for this board are as follows:
 
 1. Any significant project (defined as work containing multiple tasks with multiple people) must have a card on the board.
-2. The project on the board must have a description containing links to any background information and that projects task board. 
-3. Keep the contents of these cards limited, discussiom about actual work should occur within those tasks.
-4. Only the following labels can be applied to projects:
+1. The project on the board must have a description containing links to any background information and that projects task board. 
+1. Keep the contents of these cards limited, discussiom about actual work should occur within those tasks.
+1. Only the following labels can be applied to projects:
       1. The `Project` label.
       2. The correct `Team` label. One of the following: Retention, Consumers, Firefox Growth, or Moz.org . 
       3. Blocked if blocked.
-5. No other labels should be applied to projects.
-6. Folks who are working on a project, should be assigned.
+1. No other labels should be applied to projects.
+1. Folks who are working on a project, should be assigned.
 
-#### Project Status Board Columns
+#### Project Board Columns
 
 - `Icebox` - Projects that have been prioritized to occur next.
 - `Ready` - Prioritized projects that are ready to start.
 - `In Progress` - Projects that are currently underway.
 - `Done` - Shipped!
 
+#### Moz.org Backlog & Small Tasks
 
-### Moz.org Durable Team Board
+For non project work or tasks too small for a project, just file an issue. The lifecycle of non-project work is as folows:
 
-This board is for tasks and projects initiated by the Moz.org durable team. It operates by the same set of rules and
-best practices as our individual project boards. See below.
+1. An issue is filed.
+1. If the issue is ready to work on the label "ready" is applied.
+1. If urgent, the PM or Team Lead moves it to the Project Board and either assigns someone or someone volunteers.
+1. If not urgent, the work can be picked up whenever someone needs a break or has slack time.
+1. Once moved to the board remove the "ready" label. 
+1. If there is more than one task use a note with references to keep this tidy (see below).
+1. Move the card appropriately as work progresses.
 
+![Github References](/mozdotorgdurable/references.png)
 
 ### Project Boards
 
-Any significant project should have it's own project board where work is managed. When work on a project is complete, the board can be closed.
+Any significant project should have it's own project board where work is managed. When work on a project is complete, the board can be closed. Nice job!
 
 ## Board Details
 
@@ -104,6 +112,7 @@ We use a lot of labels, below are some special ones:
 - `Blocked` - Tasks that can not move forward and require some action to get moving. 
 - `Needs Review` - Tasks that need review (creative/pr etc) to move forward. 
 - `Fire` -  Urgent request that should take priority over other work. This could be work that has legal, financial or firefox download ramifications. Fire requests should always be vetted with the Team Lead to determine priority.
+- `Ready` - A task has all the information required for work to start, and can be picked up at any time.
 - `Project` - Should only be used for cards on the Project Board.
 - _* Team_ -  Should only be used for cards on the Project Board.
 
