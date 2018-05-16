@@ -121,7 +121,7 @@ We use a lot of labels, below are some special ones:
 
 * Stand up & Status - Mondays at 9-9:30 am PT - Stand up followed by project status review 
 * Stand ups - Tuesdays & Thursdays at 9-9:15 am PT
-* Team time - Wednesdays at 9:15-10 am PT - recurring, non-required meeting where we attempt realize the benefits of colocation (as we are not colocated)
+* Team time - Wednesdays at 9:15-10 am PT - recurring, non-required meeting where we attempt to realize the benefits of colocation (as we are not colocated)
 
 
 ## Retrospectives
