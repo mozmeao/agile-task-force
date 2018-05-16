@@ -82,7 +82,7 @@ For non project work or tasks too small for a project, just file an issue. The l
 1. If there is more than one task use a note with references to keep this tidy (see below).
 1. Move the card appropriately as work progresses.
 
-![Github References](/mozdotorgdurable/references.png)
+![Github References](mozdotorgdurable/references.png)
 
 ### Project Boards
 
