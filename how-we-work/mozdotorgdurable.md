@@ -92,12 +92,7 @@ Any significant project should have it's own project board where work is managed
 
 ### What are your columns, what do the columns mean?
 
-Generally our projects will have the following columns:
-
-- `Backlog` - Tasks we know have to get done but are not necessarily ready to go.
-- `Ready` - Prioritized tasks that are ready to start.
-- `In Progress` - Tasks that are currently underway.
-- `Done` - Shipped!
+Generally individual project boards should use the same columns as the main project board. If needed/helpful feel free to customize the columns.
 
 ### How/when do cards move across the board?
 
@@ -120,7 +115,7 @@ We use a lot of labels, below are some special ones:
 *How / when to stand ups occur, what happens during a meeting, be brief!*
 
 * Stand up & Status - Mondays at 9-9:30 am PT - Stand up followed by project status review 
-* Stand ups - Tuesdays & Thursdays at 9-9:15 am PT
+* Stand ups - Tuesdays & Thursdays at 8:45-9:00 am PT
 * Team time - Wednesdays at 9:15-10 am PT - recurring, non-required meeting where we attempt to realize the benefits of colocation (as we are not colocated)
 
 
