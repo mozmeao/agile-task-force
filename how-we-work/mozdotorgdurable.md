@@ -24,7 +24,7 @@ When the Team Lead approves the work at hand it is then reviewed by the Accounta
 
 ## Github
 
-Our team manages it's work via Github. Our goals with this process are:
+Our team manages its work via Github. Our goals with this process are:
 
 - Prioritize and assign work in a fair and balanced way.
 - Communicate status within the Moz.org and the larger Marketing organization.
