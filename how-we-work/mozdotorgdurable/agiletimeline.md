@@ -1,5 +1,8 @@
 # Mozilla.org Implementations of Agile: Timeline
 
+* Q2/2018
+   * Migrating project tracking tool from Taiga to github Projects
+
 * *Needs date*
    * Agile initiative in Mozilla Marketing kicked off to bring focus to marketing efforts
 
