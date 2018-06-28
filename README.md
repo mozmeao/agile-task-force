@@ -25,4 +25,5 @@ Have you found an area of friction or want to suggest improvements? Just [file a
 ## Resources & Docs
 * [Mozgile 2018 Onboarding Presentation](https://docs.google.com/presentation/d/1iYdnDVMEbCDXYmNCipkhm5xXwuoqS0dJd3mg1F8ZdUw/edit?ts=5aaaca7e)
 * [Mozgile Glossary](docs/glossary.md)
-
+* [Firefox new aDAU taiga board] (https://tree.taiga.io/project/jbalaco-firefox-desktop-mobile/backlog)
+* [Firefox Brand taiga board] (https://tree.taiga.io/project/jennyd-firefox-brand-durable-team/)
