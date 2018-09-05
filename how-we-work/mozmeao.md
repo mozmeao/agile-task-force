@@ -12,18 +12,16 @@ The goal of this process is to:
 - communicate status within the MozMEAO team and marketing organization
 - identify risks, blockers and high priority issues
 
-All data in the project is "standalone": we try to keep all links and references as public as possible, but there are obviously tasks that include sensitive data. These sensitive tasks are managed internally, and can also tracked in private Bugzilla issues.
+All data in the project is "standalone": we try to keep all links and references as public as possible, but there are obviously tasks that include sensitive data. These sensitive tasks are managed internally, and can also be tracked in private Bugzilla issues.
 
 
 # Milestones
 
-Milestones are higher level goals that can contain multiple tasks and can span up to two weeks of work for one or more engineers. Goals that require longer than two weeks of effort should be split up into multiple milestones.
+Milestones are higher level goals that can contain multiple tasks, and will generally be >= 2 weeks of work.  
 
 [Our milestone board](https://github.com/orgs/mozmeao/projects/3) is a set of notes (aka cards) that link to milestones in any Github organization or repo. Note that this board doesn't contain any milestones itself (only links to milestones), and it exists because milestones don't easily track across orgs (`mozmeao` and `mozilla` in our case).
 
 ## Scheduling and cadence
-
-***TODO***
 
 Once a milestone is completed, we'll decide whether to immediately continue on to the next milestone or take a 2-3 day quality improvement break for periodic system maintence, small automation opportunities or one-off backend tasks.
 
@@ -152,7 +150,7 @@ We'll start with a preference for 1 milestone in progress at any one time, with 
 
 [Milestone board](https://github.com/orgs/mozmeao/projects/3)
 
-We have a bi-weekly milestone review meeting on ***TODO***. The goal of this meeting is to review and plan milestones, and identify blockers or at-risk miletones. 
+We have a bi-weekly milestone review meeting on Thursdays at 7:30am Pacific. The goal of this meeting is to review and plan milestones, and identify blockers or at-risk miletones. 
 
 #### Process
 
