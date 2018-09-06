@@ -1,25 +1,65 @@
 # How we work in 2018
 
-Our team manages it's work via a [Github project in the MozMEAO organization](https://github.com/orgs/mozmeao/projects/2). The goal of this team-centric Kanban board is to help manage backend and infra/SRE tasks. This will allow us to:
+#### tl;dr
 
-- prioritize and assign work in a fair and balanced way
+Our team manages it's work via two Github projects separated into [milestones](https://github.com/orgs/mozmeao/projects/3) and [tasks](https://github.com/orgs/mozmeao/projects/2). 
+
+The goal of this process is to:
+
+- establish and follow a team roadmap
+- organize team-wide projects ("swarming") to foster collaboration, prevent isolation, spread knowledge, and bring ⚡️energy⚡️ to cloud engineering
+- plan, prioritize and assign work in a fair and balanced way
 - communicate status within the MozMEAO team and marketing organization
 - identify risks, blockers and high priority issues
-- foster collaboration on the server side
 
-All data in the project is "standalone": we try to keep all links and references as public as possible, but there are obviously tasks that include sensitive data. These sensitive tasks are managed internally, and can also tracked in private Bugzilla issues.
-
-
-# Project board
-
-[Our project](https://github.com/orgs/mozmeao/projects/2) is located in the MozMEAO Github organization. Note that projects at this level are not specific to any one repo. A project at the organization level allows us to easily link and track issues and PRs from `mozmeao` repos. For the rest of this document, we'll use the name `MozMEAO backend/infra` to identify this project.
+All data in the project is "standalone": we try to keep all links and references as public as possible, but there are obviously tasks that include sensitive data. These sensitive tasks are managed internally, and can also be tracked in private Bugzilla issues.
 
 
-## Backlogs
+# Milestones
 
-Each project will keep it's own backlog of tasks. Each project owner will periodically identify work from their project to be linked to the `MozMEAO backend/infra` project. This will be discussed more in the `Weekly board review section` and in the [Adding issues to the project section](#addingissues).
+Milestones are higher level goals that can contain multiple tasks, and will generally be >= 2 weeks of work.  
 
-## Adding issues to the project
+[Our milestone board](https://github.com/orgs/mozmeao/projects/3) is a set of notes (aka cards) that link to milestones in any Github organization or repo. Note that this board doesn't contain any milestones itself (only links to milestones), and it exists because milestones don't easily track across orgs (`mozmeao` and `mozilla` in our case).
+
+## Scheduling and cadence
+
+Once a milestone is completed, we'll decide whether to immediately continue on to the next milestone or take a 2-3 day quality improvement break for periodic system maintence, small automation opportunities or one-off backend tasks.
+
+# Tasks / Issues
+
+Tasks (aka issues - as thats how they're organized in Github) are <= 4 hour units of work, give or take a few hours. Anything requiring more effort should be split into multiple tasks. 
+
+[Our task board](https://github.com/orgs/mozmeao/projects/2) is located in the MozMEAO Github organization. Note that projects at this level are not specific to any one repo. A project at the organization level allows us to easily link and track issues and PRs from `mozmeao` repos. 
+
+
+# Backlogs
+
+Each repo will keep it's own backlog of tasks. Each project owner will periodically identify either larger tasks that can be organized into a miletone, or one-off tasks that can be directly added to our task board.
+
+# Board Usage
+
+## Creating a new milestone
+
+Visit your project (any org/any repo), click `Milestones` followed by `New milestone`. 
+
+### Adding issues/tasks to a milestone
+
+A single issue can be assigned to a milestone by viewing the issue and assigning a milestone on the right side of the screen.
+
+Multiple issues can be assigned to a milestone by clicking on a repo's `Issues` tab, selecting multiple issues, and then picking a value from the `Milestone` dropdown/filter.
+
+## Linking milestones to the milestone board
+
+Visit the [milestone board](https://github.com/orgs/mozmeao/projects/3), and click the `+` icon in the `To do` column. Add a one line description followed by a link to the Github milestone.
+
+For example:
+
+```
+Bedrock Django 1.11 upgrade
+https://github.com/mozilla/bedrock/milestone/3
+```
+
+## Adding issues to the task board
 
 ### Issues and PR's in `mozmeao` repos <a name="addingissues"></a>
 
@@ -61,15 +101,15 @@ The SRE team frequently has to react to events in order to ensure reliable servi
 - and more!
 
 
-## Project Columns Defined
+## Task board column definitions
 
 ### Queued
 
-Work that is scheduled for the next 1-2 weeks. These tasks are identified by project owners from a repo-specific backlog (bedrock, basket, infra, etc). Tasks in this column can be thought of as _ready_ and can be started at any time.
+Work that is scheduled for the next 1-2 weeks. These tasks are identified by project owners from a repo-specific backlog or milestone (bedrock, basket, infra, etc). Tasks in this column can be thought of as _ready_ and can be started at any time.
 
 ### In Progress
 
-Tasks that are actively being worked on. This can include (but is not limited to) analysis, development and/or troubleshooting. We should not have more than our WIP number of cards in this column. See the WIP section [TODO: link] for more info.
+Tasks that are actively being worked on. This can include (but is not limited to) analysis, development and/or troubleshooting. We should not have more than our WIP number of cards in this column. See the WIP section for more info.
 
 ### Review
 
@@ -77,25 +117,51 @@ Tasks that are waiting for QA, PR review, discussion, and/or merging. Once a car
 
 ### Complete
 
-The task is complete, it is _live_ and no additional work is required. Cards left in this column can be added to the biweekly blog post [TODO]. Once the blog post is written, move cards to `dev/null`.
+The task is complete, it is _live_ and no additional work is required. 
 
-### dev/null
-
-This is where cards go to collect dust, as their doesn't seem to be an easy way to hide completed cards.
-
-## Work-in-progress limits
+## Task board work-in-progress limits
 
 Each engineer should have between 1-3 issues that they are working on, which we'll call the `WIP limit`. For a team of 4 backend engineers/SRE's, let's start with 4 * 3. While this limit is not strictly enforced, exceeding it will cause more context switching and possibly slow down other work.
 
 The title of for the `In progress` column should include `(limit 12)`, or whatever limit we decide is appropriate.
 
 
-## Meetings
+## Milestone board column definitions
 
-### Weekly board review meeting
+### To do
 
-We have a weekly project review meeting on Tuesdays at 7:30am pacific. 
-The goal of this meeting is to review our project board, replenish the `Queued` column of the board with new work, and to identify blockers or at-risk tasks.
+This column holds milestones that will be started when the milestone(s) in `In Progress` has been completed.
+
+### In Progress
+
+Milestones in progress, with an initial WIP of 2. 
+
+### Done
+
+Milestones with all associated tasks/issues completed are moved to the `Done` column.
+
+### Milestone board work-in-progress limits
+
+We'll start with a preference for 1 milestone in progress at any one time, with a max of 2. 
+
+# Meetings
+
+### Bi-weekly milestone review
+
+[Milestone board](https://github.com/orgs/mozmeao/projects/3)
+
+We have a bi-weekly milestone review meeting on Thursdays at 7:30am Pacific. The goal of this meeting is to review and plan milestones, and identify blockers or at-risk miletones. 
+
+#### Process
+
+- Start with the top of the `In Progress` column, ensure that progress is being made for each milestone. 
+- Add new milestones to the `To do` column.
+
+### Weekly task review
+
+[Task/Issue board](https://github.com/orgs/mozmeao/projects/3)
+
+We have a weekly task/issue review meeting on Tuesdays at 7:30am Pacific. The goal of this meeting is to review our task board, replenish the `Queued` column of the board with new work, and to identify blockers or at-risk tasks.
 
 #### Process:
 
@@ -103,43 +169,19 @@ The goal of this meeting is to review our project board, replenish the `Queued` 
 - Next, review each card in the `In Progress` column to ensure the issue isn't blocked. Blocked issues should be updated with an appropriate note. When an engineer has submitted a PR, the card should be moved to the **top** of the `Review` column. Pull requests are _usually_ reviewed within 1 business day, and don't need to wait until the weekly triage meeting to be moved to the `Review` column.
     - Let's make sure the `In Progress` column is obeying the WIP limit.
 - Next, review the `Queued` column starting from the top. The top represents the highest priority queued tasks that engineers should work on next.
-    - are there any cards in this column that have been deferred? If so, do they still belong on this project board?
+    - are there any cards in this column that have been deferred? If so, do they still belong on this task board?
     - move cards from `Queued` to `In Progress`, and assign one or more engineers to work on the issue.
 - Project owners will add cards to this column for their respective projects. We should strive to keep ~2 weeks of work in the `Queued` column.
-- Once the board has been reviewed, decide who will write the bi-weekly blog post and assign a card in the `Queued` column.
 
 
-### Standups
+# Example
 
-We'll run a standup on Monday, Wednesday and Thursday for ***10 minutes*** at 7:30am pacific.
+We'd like to upgrade Django to 1.11 for Kitsune. 
 
-- The goal of this meeting is to share status updates for our main projects, instead of each engineer reporting status separately. This is a good time to identify blockers, raise red flags on infrastructure changes and cloud costs, and spin off 1-1 pairing sessions.
+[A milestone has been created](https://github.com/mozilla/kitsune/milestone/5) in the Kitsune repo to track individual upgrade tasks. These tasks can be arbitrarily ordered by dragging the left side of each task row. Three tasks have been added to the milestone, and there may be a few more resulting from [this audit](https://github.com/mozilla/kitsune/issues/3304). 
 
-- Take the following list, randomize order, add/remove topics as needed and ask the team for updates:
-  - Bedrock (Basket, Nucleus)
-  - Careers
-  - Infrastructure
-  - MDN
-  - Snippets
-  - SUMO
+A [progress bar for this milestone](https://github.com/mozilla/kitsune/milestones) is visible by clicking `Issues`, followed by `Milestones` from the [root of the repo](https://github.com/mozilla/kitsune).
 
-- This meeting **IS NOT** for technical discussions.
-- If the meeting runs > 10 minutes, we're doing it wrong.
-- Please review the project board and update any cards that you're working on _before_ the meeting.
+To track this milestone along with all other team milestones, we use [this board](https://github.com/orgs/mozmeao/projects/3).  This allows us to link to a _milestone_ from any org/repo in Github. 
 
-
-# Communications
-
-## MozMEAO blog post
-
-Bi-weekly status is communicated to the organization via the [https://mozilla.github.io/meao/](https://mozilla.github.io/meao/) blog. New posts are submitted against [this](https://github.com/mozilla/meao) repo.
-
-- Do not include the following:
-  - anything confidential or sensitive
-  - links to sites that have not yet launched
-- Include the following:
-  - future work that may impact other projects or teams. 
-  - external contributions
-
-Each member will take turns writing this post. We'll decide who will be the next author at the weekly board review meeting.
-
+We then track any work from a milestone the same way we've been tracking cross-org/repo issues on our [task board](https://github.com/orgs/mozmeao/projects/2?card_filter_query=repo%3Amozilla%2Fkitsune) (link has a filter for `mozilla/kitsune` issues, and issues may no longer appear on the board depending on when you're reading this).
