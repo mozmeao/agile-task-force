@@ -1,3 +1,5 @@
+This repository is archived and no longer active. 
+
 # Agile Task Force
 A repository of artifacts from Mozilla Marketing's Agile Task Force
 
